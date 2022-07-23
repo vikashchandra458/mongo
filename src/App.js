@@ -5,21 +5,22 @@ import FetchNews from "./FetchNews";
 import SMS from "./SMS";
 import Email from "./Email";
 import './App.css';
-import {BrowserRouter as Router,Routes ,Route} from 'react-router-dom';
+import {BrowserRouter,Routes ,Route} from 'react-router-dom';
 
 function App() 
 {
     return <>
-    <Router >
+
+    <BrowserRouter basename="/reactMongo">
         <Routes>
-            <Route exact path="/" element={<Signup/>}/>
+            <Route exact path="/reactMongo" element={<Signup/>}/>
             <Route  path="/login" element={<Login/>}/>
             <Route  path="/Table" element={<Table/>}/>
             <Route  path="/FetchNews" element={<FetchNews/>}/>
             <Route  path="/SMS" element={<SMS/>}/>
             <Route  path="/Email" element={<Email/>}/>
         </Routes>
-    </Router>
+    </BrowserRouter>
     </>     
 }export default App;
 
