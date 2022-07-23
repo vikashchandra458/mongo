@@ -11,9 +11,9 @@ function App()
 {
     return <>
 
-    <BrowserRouter basename="/reactMongo">
+    <BrowserRouter basename="/mongo">
         <Routes>
-            <Route exact path="/reactMongo" element={<Signup/>}/>
+            <Route exact path="/mongo" element={<Signup/>}/>
             <Route  path="/login" element={<Login/>}/>
             <Route  path="/Table" element={<Table/>}/>
             <Route  path="/FetchNews" element={<FetchNews/>}/>
