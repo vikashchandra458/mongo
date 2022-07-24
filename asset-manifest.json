@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mongo/static/css/main.525791c5.css",
+    "main.js": "/mongo/static/js/main.c6c7a575.js",
+    "static/js/787.3a6ac449.chunk.js": "/mongo/static/js/787.3a6ac449.chunk.js",
+    "static/media/table.webp": "/mongo/static/media/table.80c02f633553f8b3e45d.webp",
+    "static/media/photo.webp": "/mongo/static/media/photo.73325f3153d344c971a9.webp",
+    "index.html": "/mongo/index.html",
+    "main.525791c5.css.map": "/mongo/static/css/main.525791c5.css.map",
+    "main.c6c7a575.js.map": "/mongo/static/js/main.c6c7a575.js.map",
+    "787.3a6ac449.chunk.js.map": "/mongo/static/js/787.3a6ac449.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.525791c5.css",
+    "static/js/main.c6c7a575.js"
+  ]
+}
