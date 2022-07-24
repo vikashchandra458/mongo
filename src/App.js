@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Signup from "./Signup";
 import Login from "./Login";
 import Table from "./Table";
@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <BrowserRouter basename="mongo">
+      <Router basename="mongo">
         <Routes>
           <Route exact path="/" element={<Signup />} />
           <Route path="/mongo" element={<Signup />} />
@@ -21,7 +21,7 @@ function App() {
           <Route path="/SMS" element={<SMS />} />
           <Route path="/Email" element={<Email />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </>
   );
 }
